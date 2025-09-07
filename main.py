@@ -52,7 +52,7 @@ async def on_ready():
 
 @bot.command()
 @commands.is_owner() #Restringe esse comando apenas ao dono do bot
-async def sync(ctx):
+async def sync(ctx):    
     #Comando para recarregar as cogs e comandos sem precisar reiniciar o bot
     mensagem = await ctx.reply('Carregando as novas configurações...', mention_author = False)
     for arquivo in os.listdir('cogs'):

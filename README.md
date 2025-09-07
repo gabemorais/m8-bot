@@ -17,6 +17,8 @@ Um bot para discord, com **arquitetura modular e open source**, desenvolvido em 
 ### Códigos
 - **`/userinfo`** - Informações detalhadas de usuários
 - **`/wiki`** - Pesquisa na Wikipedia
+- **`/mute`** - Muta um usuário
+- **`/slowmode`** - Adiciona slow mode no canal que usar o código
 - **`/ping`** - Mostra o ping do bot
 
 ## **🚀 Instalação**
@@ -63,12 +65,13 @@ Exemplo: TOKEN=1234567890
 ```
 
 ## **Cogs disponíveis**
-| Cog | Descrição | Status |
-| ---------- | ------------------------------------------------------ | -- |
-| `userinfo`| Comando para puxar algumas informações sobre o usuário | ✅ |
-| `wiki`   | Comando para fazer pesquisa no wikipedia diretamente do discord | ✅ |
-| `random` | Comando com diversas funcionalidades baseados em RNG | 🚧 |
-| `dado` | Comando que simula dados de RPG de mesa (D4, D6, D8, D12, D20...) | 🚧 |
+|Cog|Descrição|Status|
+|-|-|-|
+|`userinfo`|Comando para puxar algumas informações sobre o usuário|✅|
+|`wiki`|Comando para fazer pesquisa no wikipedia diretamente do discord|✅|
+|`moderacao`|Comandos para gestões de usuários e canais (por exemplo: /kick e /ban)|✅|
+|`random`|Comando com diversas funcionalidades baseados em RNG|🚧|
+|`dado`|Comando que simula dados de RPG de mesa (D4, D6, D8, D12, D20...)|🚧|
 
 ## **🏗️ Estrutura do Projeto**
 ```

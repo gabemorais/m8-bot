@@ -49,8 +49,8 @@ class UserInfo(commands.Cog):
             embed.add_field(
                 name='📋 Identificação',
                 value=f'**Nick:** {user_obj.name}\n'
-                      f'**ID:** `{user_obj.id}`\n'
-                      f'**É bot?** {is_bot}',
+                f'**ID:** `{user_obj.id}`\n'
+                f'**É bot?** {is_bot}',
                 inline=True
             )
 
@@ -58,8 +58,8 @@ class UserInfo(commands.Cog):
             embed.add_field(
                 name='📅 Conta',
                 value=f'**Criada em:** {conta_criada.strftime("%d/%m/%Y %H:%M")}\n'
-                      f'**Idade da conta:** {dias_conta} dias\n'
-                      f'**Avatar URL:** [Clique aqui]({user_obj.display_avatar.url})',
+                f'**Idade da conta:** {dias_conta} dias\n'
+                f'**Avatar URL:** [Clique aqui]({user_obj.display_avatar.url})',
                 inline=True
             )
 
