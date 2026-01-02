@@ -30,7 +30,7 @@ Um bot para discord, com **arquitetura modular e open source**, desenvolvido em 
 ### Passo a Passo
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/m8-bot.git
+git clone https://github.com/gabemorais/m8-bot.git
 ```
 
 2. **Instale as dependências**
